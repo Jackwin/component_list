@@ -1,5 +1,21 @@
 # Component_list
 The electronic components that I have used in the FPGA design 
+## DC-DC Converter
+- [LMZ31710](http://www.ti.com/lit/ds/symlink/lmz31710.pdf)
+    - Input voltage range: [2.95, 17V]
+    - Maximum output current: 10A
+    - Efficiency: 95%
+    - Switching frequency: [200 KHz, 1.2MHz]
+    - Operating temperature：[-40℃, 85℃]
+    - Package: QFN
+## LDO Regulator
+- [TPS74401](http://www.ti.com/lit/ds/symlink/tps74401.pdf)
+    - Input voltage range: [1.1V, 5.5V]
+    - Maximum output current: 3A
+    - Adjustable Output: [0.8V, 3.6V]
+    - Dropout: 115 mV at 3.0 A (typical)
+    - Operating junction temperature：[-40℃, 150℃]
+    - Packge: VQFN, RGR, DDPAK
 
 ## Voltage Translator
 - [TXS0108E](http://www.ti.com/lit/ds/symlink/txs0108e.pdf)
@@ -15,3 +31,13 @@ The electronic components that I have used in the FPGA design
     - 2-bit Bi-directional level shifting
     - VCCA voltage *[1.65V, 3.6V]*, VCCB voltage *[2.3V, 5.5V]*
     - *NOTE:* OE referenced to the VCCA
+
+## Voltage Supervisor(PWR-ON Reset)
+- [TPS3801xxx](http://www.ti.com/lit/ds/symlink/tps3801.pdf)
+    - Power on reset fixed delay
+        - TPS3800 = 100 ms
+        - TPS3801 = 200 ms 
+        - TPS3802 = 400 ms
+    - Supply voltage: [2V, 6V]
+    - Operating temperature：[-40℃, 85℃]
+    - Packge: SOT-23
