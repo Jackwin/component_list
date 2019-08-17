@@ -1,13 +1,27 @@
 # Component_list
-The electronic components that I have used in the FPGA design 
+The electronic components that have been used in the FPGA design 
 ## DC-DC Converter
 - [LMZ31710](http://www.ti.com/lit/ds/symlink/lmz31710.pdf)
-    - Input voltage range: [2.95, 17V]
+    - Input voltage range: [2.95V, 17V]
     - Maximum output current: 10A
-    - Efficiency: 95%
+    - Efficiency: up to 95%
     - Switching frequency: [200 KHz, 1.2MHz]
     - Operating temperature：[-40℃, 85℃]
     - Package: QFN
+- [LTM8027](https://www.analog.com/media/en/technical-documentation/data-sheets/8027fd.pdf)
+    - Input voltage range:[4.5V, 60V]
+    - Maximum output current: 4A
+    - Efficiency: up to 95%
+    - Switching frequency: [100 KHz, 500KHz]
+    - Operating temperature：[-40℃, 125℃]
+    - Package: BGA/LGA
+- [LT8645S](https://www.analog.com/media/en/technical-documentation/data-sheets/8645sfa.pdf)
+    - Input voltage range:[3.4V, 65V]
+    - Maximum output current: 8A
+    - Efficiency: up to 95%
+    - Switching frequency: [200 KHz, 2MHz]
+    - Operating temperature：[-40℃, 125℃]
+    - Package: LQFN
 ## LDO Regulator
 - [TPS74401](http://www.ti.com/lit/ds/symlink/tps74401.pdf)
     - Input voltage range: [1.1V, 5.5V]
@@ -18,6 +32,7 @@ The electronic components that I have used in the FPGA design
     - Packge: VQFN, RGR, DDPAK
 
 ## Voltage Translator
+
 - [TXS0108E](http://www.ti.com/lit/ds/symlink/txs0108e.pdf)
     - 8-bit Bi-directional level shifting
     - Applicable to open-drain and push-pull driver circuits
@@ -33,6 +48,7 @@ The electronic components that I have used in the FPGA design
     - *NOTE:* OE referenced to the VCCA
 
 ## Voltage Supervisor(PWR-ON Reset)
+
 - [TPS3801xxx](http://www.ti.com/lit/ds/symlink/tps3801.pdf)
     - Power on reset fixed delay
         - TPS3800 = 100 ms
