@@ -37,6 +37,9 @@ The electronic components that have been used in the FPGA design
     - 8-bit Bi-directional level shifting
     - Applicable to open-drain and push-pull driver circuits
     - VCCA voltage [1.2V, 3.6V], VCCB voltage [1.65V, 5.5V]
+    - Applicable to the open drain 
+    - Driven strength is weak
+    - PCB trace is as short as possible to avoid the excessive capacitive loading
 - *NOTE:* OE referenced to the VCCA
 - [TXS0104E](http://www.ti.com/lit/ds/symlink/txs0104e.pdf)
   - 4-bit Bi-directional level shifting
@@ -46,6 +49,17 @@ The electronic components that have been used in the FPGA design
     - 2-bit Bi-directional level shifting
     - VCCA voltage *[1.65V, 3.6V]*, VCCB voltage *[2.3V, 5.5V]*
     - *NOTE:* OE referenced to the VCCA
+- [SN74LVC8T245](http://www.ti.com/lit/ds/symlink/sn74lvc8t245.pdf)
+    - 8-bit dual-supply level translation & 3-state output
+    - Support 5V power supply
+    - High driving capability 
+- [SN74LV4T125](http://www.ti.com/lit/ds/symlink/sn74lv4t125.pdf)
+    - Single Power Supply 
+    - CMOS logic level translation
+    - High driving capability
+-  [SN74AXC4T774](https://www.ti.com/product/SN74AXC4T774)
+    - 4-Bit Dual-Supply
+    - Applicable to SPI bus
 
 ## Voltage Supervisor(PWR-ON Reset)
 
@@ -57,3 +71,6 @@ The electronic components that have been used in the FPGA design
     - Supply voltage: [2V, 6V]
     - Operating temperature：[-40℃, 85℃]
     - Packge: SOT-23
+- 
+
+## ADC
