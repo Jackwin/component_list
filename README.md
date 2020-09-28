@@ -64,6 +64,7 @@ The electronic components that have been used in the FPGA design
 ## Voltage Supervisor(PWR-ON Reset)
 
 - [TPS3801xxx](http://www.ti.com/lit/ds/symlink/tps3801.pdf)
+    
     - Power on reset fixed delay
         - TPS3800 = 100 ms
         - TPS3801 = 200 ms 
@@ -71,6 +72,36 @@ The electronic components that have been used in the FPGA design
     - Supply voltage: [2V, 6V]
     - Operating temperature：[-40℃, 85℃]
     - Packge: SOT-23
-- 
+    
+    
 
 ## ADC
+
+- [AD9434](https://www.analog.com/media/en/technical-documentation/data-sheets/AD9434.pdf)
+  - 12-Bit 370/500 MSPS 1.8V AD converter
+  - Support SDR/DDR output format
+  - 1.8V analog and digital supply voltage
+
+- [AD9826](https://www.analog.com/media/en/technical-documentation/data-sheets/AD9826.pdf)
+  - 16-Bit image signal processor
+  - 3-channel 16-Bit operation up to 15MSPS
+  -  1-Channel 16-Bit Operation up to 12.5 MSPS 
+  - Support RGB channel sampling for the image processing
+  - 3V/5V IO compatibility
+
+## Clock Generator
+
+- [AD9517-3](https://www.analog.com/media/en/technical-documentation/data-sheets/AD9517-3.pdf)
+  - 12-channel output clocks
+  - Integrated 2.0 GHz VCO or external VCO/VCXO to 2.4 GHz
+  - 4 LVPECL outputs @ 1.6 GHz LVPECL outputs with jitter @ 225 fs rms
+  - 4  LVDS clock outputs @ 800 MHz with jitter @ 275 fs rms
+  - 4 LDVS outputs can be configured as 8 CMOS outputs
+
+## DAC
+
+## DDR
+
+## Oscillator
+
+## Peripheral 
