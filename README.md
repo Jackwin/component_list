@@ -22,6 +22,11 @@ The electronic components that have been used in the FPGA design
     - Switching frequency: [200 KHz, 2MHz]
     - Operating temperature：[-40℃, 125℃]
     - Package: LQFN
+- [TLV62130](https://www.ti.com/lit/ds/symlink/tlv62130.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1657604874340&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Ftlv62130)
+    - Input voltage range:[3V, 17V]
+    - Maximum output current: 3A
+    - Switching frequency: [1250 KHz, 2500KHz]
+    - Package: QFN
 ## LDO Regulator
 - [TPS74401](http://www.ti.com/lit/ds/symlink/tps74401.pdf)
     - Input voltage range: [1.1V, 5.5V]
@@ -30,6 +35,11 @@ The electronic components that have been used in the FPGA design
     - Dropout: 115 mV at 3.0 A (typical)
     - Operating junction temperature：[-40℃, 150℃]
     - Packge: VQFN, RGR, DDPAK
+- [MAX8902BATA+T](https://datasheets.maximintegrated.com/en/ds/MAX8902-MAX8902B.pdf)
+  - Low noise 500mA LDO
+  - Input voltage range:[1.7, 5.5]
+  - Adjustable Output: 1.5V, 1.8V, 2.0V, 2.5V, 3.0V, 3.1V, 3.3V, 4.6V, or 4.7V
+  - 2mm x 2mm x 0.8mm TDFN Package
 
 ## Voltage Translator
 
@@ -72,7 +82,6 @@ The electronic components that have been used in the FPGA design
     - Supply voltage: [2V, 6V]
     - Operating temperature：[-40℃, 85℃]
     - Packge: SOT-23
-    
     
 
 ## ADC
